@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacidad de Recreo</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@500;700;800&display=swap">
+<style>
+/* Layout: una sola columna de lectura (~65 caracteres), encabezado con la marca y dos bloques de idioma */
+:root{--bg:#f6f1ea;--fg:#2a2433;--muted:#6d6577;--accent:#e8552f;--card:#fffaf4;--line:#eadfd2;
+  --display:"Fredoka","Trebuchet MS",system-ui,sans-serif;--body:"Nunito",system-ui,-apple-system,"Segoe UI",sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1d1a24;--fg:#f1ebf5;--muted:#b0a6bb;--accent:#ff8a5c;--card:#26222f;--line:#3a3445;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1d1a24;--fg:#f1ebf5;--muted:#b0a6bb;--accent:#ff8a5c;--card:#26222f;--line:#3a3445;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:500 16px/1.6 var(--body);padding:32px 16px 48px}
+main{max-width:660px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+header{display:flex;align-items:center;gap:14px}
+.logo{width:56px;height:56px;border-radius:15px;background:linear-gradient(135deg,#ff5a7a,#ff7a3d 55%,#ffbf3c);display:grid;place-items:center;flex:none}
+.logo span{width:26px;height:26px;border-radius:7px;background:#fff;transform:rotate(-12deg);display:grid;grid-template-columns:repeat(3,1fr);padding:3px;box-sizing:border-box}
+.logo i{width:5px;height:5px;border-radius:50%;place-self:center}
+h1{font:700 30px/1.15 var(--display);margin:0;text-wrap:balance}
+.sub{color:var(--muted);margin:2px 0 0;font-size:14px}
+nav{display:flex;gap:8px;flex-wrap:wrap}
+nav a{font:600 14px var(--display);color:var(--accent);text-decoration:none;border:1.5px solid var(--line);border-radius:999px;padding:6px 14px;background:var(--card)}
+nav a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+section{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px 22px}
+h2{font:700 22px var(--display);margin:0 0 4px}
+h3{font:600 17px var(--display);margin:22px 0 4px;color:var(--accent)}
+p,li{margin:6px 0}
+ul{padding-left:20px;margin:6px 0}
+.fecha{font-size:13px;color:var(--muted);letter-spacing:.04em;text-transform:uppercase;margin:0 0 10px}
+</style>
+</head><body>
+<main>
+  <header>
+    <div class="logo" aria-hidden="true"><span><i style="background:#ff4d6d"></i><i></i><i style="background:#3a86ff"></i><i></i><i style="background:#ffbf3c"></i><i></i><i style="background:#2ec27e"></i><i></i><i style="background:#9b5de5"></i></span></div>
+    <div><h1>Política de privacidad de Recreo</h1><p class="sub">Recreo: 73 juegos sin internet · Privacy policy</p></div>
+  </header>
+  <nav><a href="#es">Español</a><a href="#en">English</a></nav>
+
+  <section id="es">
+    <p class="fecha">Vigente desde el 8 de octubre de 2026</p>
+    <h2>Español</h2>
+    <p>Recreo es una colección de juegos que funciona sin conexión a internet. Esta política explica qué información usa la app y cómo.</p>
+    <h3>Información que guarda la app</h3>
+    <p>Tu avance (monedas, niveles, récords, temas y preferencias de idioma y dificultad) se guarda solo en tu celular. No creamos cuentas, no pedimos tu nombre, correo ni teléfono, y no enviamos esa información a ningún servidor nuestro.</p>
+    <h3>Permisos</h3>
+    <p>Recreo no pide acceso a tu ubicación, contactos, cámara, micrófono ni archivos.</p>
+    <h3>Anuncios</h3>
+    <p>Recreo puede mostrar anuncios a través de Google AdMob. Para mostrarlos y medir su funcionamiento, Google puede recopilar el identificador de publicidad del dispositivo, datos de uso de la app e información técnica del dispositivo, conforme a su propia política de privacidad (policies.google.com/privacy). Puedes restablecer o desactivar el identificador de publicidad en la configuración de Google de tu celular. Si compras el pase "Sin anuncios", ya no verás anuncios entre partidas.</p>
+    <h3>Compras dentro de la app</h3>
+    <p>Las compras se procesan con Google Play. Nosotros no recibimos ni guardamos datos de tu tarjeta o forma de pago. Las monedas del juego son virtuales y no se pueden cambiar por dinero.</p>
+    <h3>Menores de edad</h3>
+    <p>Recreo no está dirigida a menores de 13 años y no recopila a sabiendas información personal de niños.</p>
+    <h3>Cómo borrar tus datos</h3>
+    <p>Al desinstalar la app o borrar sus datos desde la configuración de Android se elimina todo tu avance guardado.</p>
+    <h3>Cambios y contacto</h3>
+    <p>Si esta política cambia, publicaremos la versión nueva en esta misma página. Para cualquier duda escríbenos al correo de contacto que aparece en la ficha de Recreo en Google Play.</p>
+  </section>
+
+  <section id="en" lang="en">
+    <p class="fecha">Effective October 8, 2026</p>
+    <h2>English</h2>
+    <p>Recreo is a collection of games that works without an internet connection. This policy explains what information the app uses and how.</p>
+    <h3>Information stored by the app</h3>
+    <p>Your progress (coins, levels, high scores, themes, language and difficulty settings) is stored only on your phone. We don't create accounts, we don't ask for your name, email or phone number, and we don't send this information to any server of ours.</p>
+    <h3>Permissions</h3>
+    <p>Recreo does not request access to your location, contacts, camera, microphone or files.</p>
+    <h3>Ads</h3>
+    <p>Recreo may show ads through Google AdMob. To serve ads and measure their performance, Google may collect the device advertising ID, app usage data and technical device information, under its own privacy policy (policies.google.com/privacy). You can reset or turn off the advertising ID in your phone's Google settings. If you buy the "No ads" pass, you won't see ads between games.</p>
+    <h3>In-app purchases</h3>
+    <p>Purchases are processed by Google Play. We never receive or store your card or payment details. In-game coins are virtual and cannot be exchanged for money.</p>
+    <h3>Children</h3>
+    <p>Recreo is not directed at children under 13 and does not knowingly collect personal information from children.</p>
+    <h3>Deleting your data</h3>
+    <p>Uninstalling the app or clearing its data in Android settings deletes all of your saved progress.</p>
+    <h3>Changes and contact</h3>
+    <p>If this policy changes, we will publish the new version on this same page. For any questions, write to the contact email shown on Recreo's Google Play listing.</p>
+  </section>
+</main>
+
+</body></html>
